@@ -1,0 +1,32 @@
+:root{
+	--color-primary:orange;
+	--color-text:cyan;
+	--color-dark:black;
+	--color-white:white;
+}
+
+body{
+font-family: 'Orbitron', sans-serif;
+
+}
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+main{
+	height:100vh;
+	color:white;
+	background-color:black;
+}
+
+.digitalClock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size:70px;
+	color:var(--color-text);
+	text-shadow:2px 2px 20px var(--color-text);
+}
